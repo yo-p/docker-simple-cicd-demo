@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-west-2
-  ECS_SERVICE: ssimple-cicd-def-service
+  ECS_SERVICE: simple-cicd-def-service
   ECS_CLUSTER: simple-cicd-cluster
   ECS_TASK_DEFINITION: .aws/task-definition.json
 
