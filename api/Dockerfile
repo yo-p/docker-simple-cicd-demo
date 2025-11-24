@@ -1,6 +1,7 @@
 FROM gradle:7 AS base
 CMD ["bash"]
 
+
 # build
 FROM base AS test-and-build
 COPY . /workspace
